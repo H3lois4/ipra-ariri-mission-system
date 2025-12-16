@@ -10,10 +10,11 @@ class TeamMember(models.Model):
     full_name = models.CharField(max_length=255)
     photo = models.ImageField(upload_to='team/photos/', null=True, blank=True)
 
-    rg = models.CharField(max_length=20)
-    cpf = models.CharField(max_length=14)
+    rg = models.CharField(max_length=20, blank=True)
+    cpf = models.CharField(max_length=14, blank=True)
 
-    birth_date = models.DateField()
+
+    birth_date = models.DateField(null=True, blank=True)
     gender = models.CharField(
         max_length=20,
         choices=[
