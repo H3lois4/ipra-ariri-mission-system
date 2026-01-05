@@ -10,6 +10,8 @@ urlpatterns = [
     path('activities/', include('activities.urls')),
     path('blog/', include('blog.urls')),
     path('finance/', include('finance.urls')),
+    path('devotionals/', include('devotionals.urls')),
+
 
 ]
 

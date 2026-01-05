@@ -43,6 +43,8 @@ INSTALLED_APPS = [
     'activities',
     'blog',
     'finance',
+    'devotionals',
+
 
 ]
 
