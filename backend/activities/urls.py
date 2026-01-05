@@ -1,6 +1,7 @@
 from django.urls import path
-from .views import activity_summary
+from .views import ActivitySummaryAPIView, ActivityListCreateAPIView
 
 urlpatterns = [
-    path('summary/', activity_summary, name='activity-summary'),
+    path('summary/', ActivitySummaryAPIView.as_view(), name='activity-summary'),
+    path('', ActivityListCreateAPIView.as_view(), name='activity-list-create'),
 ]
