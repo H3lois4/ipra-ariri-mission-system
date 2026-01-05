@@ -8,6 +8,7 @@ from django.urls import include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('activities/', include('activities.urls')),
+    path('blog/', include('blog.urls')),
 ]
 
 if settings.DEBUG:

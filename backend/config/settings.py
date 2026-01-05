@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     'users',
     'team.apps.TeamConfig',
     'activities',
+    'blog',
+
 
 ]
 
