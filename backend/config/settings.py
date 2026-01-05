@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'team.apps.TeamConfig',
     'activities',
     'blog',
-
+    'finance',
 
 ]
 

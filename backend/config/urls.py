@@ -9,6 +9,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('activities/', include('activities.urls')),
     path('blog/', include('blog.urls')),
+    path('finance/', include('finance.urls')),
+
 ]
 
 if settings.DEBUG:
